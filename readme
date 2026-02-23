@@ -1,0 +1,84 @@
+# Projeto GitHub – Pull Request
+
+## Professor
+
+**Carlos Alberto**
+
+## Aluno
+
+Breno Gomes
+
+Carlos Rodrigues
+
+Lucas Ramos
+
+Lucas Fabiano
+
+Marcella Alves
+
+---
+
+## 📌 Objetivo do Projeto
+
+Este projeto tem como finalidade demonstrar, na prática, o funcionamento do **Pull Request** no GitHub, incluindo o fluxo de criação de branches, realização de alterações e solicitação de integração ao branch principal.
+
+---
+
+## 📖 O que é um Pull Request?
+
+Um **Pull Request (PR)** é uma solicitação para que alterações feitas em uma branch sejam revisadas e, se aprovadas, incorporadas a outra branch (geralmente a `main` ou `master`).
+Ele permite:
+
+* Revisão de código
+* Discussão sobre mudanças
+* Controle de versões colaborativo
+* Maior segurança antes da integração
+
+---
+
+## 🔄 Fluxo Utilizado no Projeto
+
+1. Criação do repositório no GitHub
+2. Clone do repositório para a máquina local
+3. Criação de uma nova branch:
+
+   ```bash
+   git checkout -b minha-branch
+   ```
+4. Realização das alterações no projeto
+5. Adição e commit das mudanças:
+
+   ```bash
+   git add .
+   git commit -m "Descrição das alterações"
+   ```
+6. Envio da branch para o GitHub:
+
+   ```bash
+   git push origin minha-branch
+   ```
+7. Criação do **Pull Request** pelo GitHub
+8. Revisão e aprovação das alterações
+9. Merge da branch na `main`
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+* Git
+* GitHub
+* Linha de comando (Git Bash ou Terminal)
+
+---
+
+## 📎 Conclusão
+
+O Pull Request é uma ferramenta essencial para o desenvolvimento colaborativo, pois organiza as contribuições, facilita a revisão de código e reduz erros na integração de novas funcionalidades.
+
+---
+
+## 📅 Disciplina
+
+Desenvolvimento de Sistemas / Versionamento de Código
+
+**Professor: Carlos Alberto**
