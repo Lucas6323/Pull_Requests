@@ -1,10 +1,16 @@
 # Projeto GitHub – Pull Request
-
+________________________________________________________________________________________________
 ## Professor
+   **Carlos Alberto**
+________________________________________________________________________________________________
 
-**Carlos Alberto**
+## 📌 Objetivo do Projeto
 
-## Aluno
+Este projeto tem como finalidade demonstrar, na prática, o funcionamento do **Pull Request** no GitHub, incluindo o fluxo de criação de branches, realização de alterações e solicitação de integração ao branch principal.
+
+---
+
+## Alunos
 
 Breno Gomes
 
@@ -15,12 +21,6 @@ Lucas Ramos
 Lucas Fabiano
 
 Marcella Alves
-
----
-
-## 📌 Objetivo do Projeto
-
-Este projeto tem como finalidade demonstrar, na prática, o funcionamento do **Pull Request** no GitHub, incluindo o fluxo de criação de branches, realização de alterações e solicitação de integração ao branch principal.
 
 ---
 
@@ -43,7 +43,7 @@ Ele permite:
 3. Criação de uma nova branch:
 
    ```bash
-   git checkout -b minha-branch
+   git checkout -b <branch-name>
    ```
 4. Realização das alterações no projeto
 5. Adição e commit das mudanças:
@@ -55,7 +55,7 @@ Ele permite:
 6. Envio da branch para o GitHub:
 
    ```bash
-   git push origin minha-branch
+   git push origin <branch-name>
    ```
 7. Criação do **Pull Request** pelo GitHub
 8. Revisão e aprovação das alterações
@@ -79,6 +79,4 @@ O Pull Request é uma ferramenta essencial para o desenvolvimento colaborativo, 
 
 ## 📅 Disciplina
 
-Desenvolvimento de Sistemas / Versionamento de Código
-
-**Professor: Carlos Alberto**
+DevOps  -  **Carlos Alberto**
