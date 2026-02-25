@@ -14,8 +14,6 @@ body{
 }
 
 
-/* HEADER */
-
 header{
     box-shadow: 0 0 10px #4a1080;
     display:flex;
@@ -45,9 +43,6 @@ header a:hover{
     border-bottom:2px solid #e9d5ff;
 }
 
-
-/* MAIN */
-
 main{
     flex:1;
     display:flex;
@@ -57,24 +52,15 @@ main{
     padding:40px;
 }
 
-
-/* CONTEÚDO (ESQUERDA) */
-
 .conteudo{
     max-width:600px;
 }
-
-
-/* IMAGEM (DIREITA MAS NÃO COLADA) */
 
 main img{
     width:400px;
     border-radius:12px;
     box-shadow:0 0 25px #6a00ff;
 }
-
-
-/* TITULOS */
 
 h2{
     padding-left:25px;
@@ -89,9 +75,6 @@ h2{
     padding-left:25px;
 }
 
-
-/* TEXTO */
-
 .descricao{
     padding-left:25px;
     font-size:20px;
@@ -99,9 +82,6 @@ h2{
     line-height:1.6;
     margin-bottom:10px;
 }
-
-
-/* FUNCIONALIDADES */
 
 .funcionalidades{
     padding-left:25px;
@@ -118,9 +98,6 @@ h2{
     color:#e9d5ff;
     box-shadow:0 0 10px #4a1080;
 }
-
-
-/* BOTÃO */
 
 .botao{
     display:inline-block;
@@ -140,9 +117,6 @@ h2{
     transform:scale(1.05);
     box-shadow:0 0 15px #a855f7;
 }
-
-
-/* FOOTER */
 
 footer{
     border-top:1px solid #6a00ff;
