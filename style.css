@@ -46,13 +46,14 @@ header a:hover{
 }
 
 
-/* MAIN - conteúdo esquerda / imagem direita */
+/* MAIN */
 
 main{
     flex:1;
     display:flex;
-    justify-content:space-between;
     align-items:center;
+    justify-content:center;   /* CENTRALIZA TUDO */
+    gap:120px;                /* controla espaço entre texto e imagem */
     padding:40px;
 }
 
@@ -61,18 +62,15 @@ main{
 
 .conteudo{
     max-width:600px;
-    order:1;
 }
 
 
-/* IMAGEM (DIREITA) */
+/* IMAGEM (DIREITA MAS NÃO COLADA) */
 
 main img{
     width:400px;
-    height:auto;
     border-radius:12px;
     box-shadow:0 0 25px #6a00ff;
-    order:2;
 }
 
 
