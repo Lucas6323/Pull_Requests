@@ -46,7 +46,7 @@ main{
     flex: 1;
 }
 
-.coneudo{
+.conteudo{
     margin-left: 40px;
     margin-top: 40px;
     max-width: 600px;
@@ -59,3 +59,49 @@ h2{
     margin-bottom: 15px;
 }
 
+.titulo-func{
+    margin-top: 50px;
+    font-size: 26px;
+    padding-left: 25px;
+}
+
+.descricao{
+    padding-left: 25px;
+    font-size: 20px;
+    color: #c4b5fd;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.funcionalidades{
+    padding-left:25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.funcionalidades span{
+    border: 1px solid #a855f7;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #e9d5ff;
+    box-shadow: 0 0 10px #4a1080;
+}
+
+.botao{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #7c3aed, #a855f7);
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.botao:hover{
+    transform: scale(1.05);
+}
