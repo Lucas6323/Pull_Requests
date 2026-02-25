@@ -41,3 +41,21 @@ header a:hover{
     color: #e9d5ff;
     border-bottom: 2px solid #e9d5ff;
 }
+
+main{
+    flex: 1;
+}
+
+.coneudo{
+    margin-left: 40px;
+    margin-top: 40px;
+    max-width: 600px;
+}
+
+h2{
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
